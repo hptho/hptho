@@ -171,10 +171,11 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "0b485ca4-66bf-4dca-8393-02356460c9dc"
+                "x": 170,
+                "y": 190
               },
               "target": {
-                "x": 300,
+                "x": 310,
                 "y": 220
               },
               "vertices": [],
@@ -196,6 +197,40 @@
               "isPublicNetwork": true,
               "isEncrypted": true,
               "protocol": "HTTP/S",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7d4bd77f-de09-4072-80ee-7e40f601e67e"
+              },
+              "target": {
+                "id": "f8b594d2-5345-4f88-ad56-26a966896f92"
+              },
+              "vertices": [],
+              "id": "9bf84eaf-3bfa-4e11-b72d-395a8e198b94",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "POST Message",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"

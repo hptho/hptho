@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "title": "Threat Modeling CheckOut Sendo DataFlow"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "CheckOut Sendo",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}

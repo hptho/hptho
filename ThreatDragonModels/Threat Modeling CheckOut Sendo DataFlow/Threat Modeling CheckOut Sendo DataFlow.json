@@ -18,8 +18,8 @@
                 "height": 80
               },
               "position": {
-                "x": 12,
-                "y": 135
+                "x": 10,
+                "y": 180
               },
               "angle": 0,
               "id": "0b485ca4-66bf-4dca-8393-02356460c9dc",
@@ -44,22 +44,164 @@
                 "height": 100
               },
               "position": {
-                "x": 330,
+                "x": 510,
                 "y": 20
               },
               "angle": 0,
-              "id": "45ec38da-233e-4d79-9f6f-6838e267537f",
-              "z": 2,
+              "id": "f8b594d2-5345-4f88-ad56-26a966896f92",
+              "z": 5,
               "hasOpenThreats": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Get Info Order"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 510,
+                "y": 170
+              },
+              "angle": 0,
+              "id": "41648950-4703-4538-b667-fe66031aaa8e",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Get Ecom\nPayment Info"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 510,
+                "y": 320
+              },
+              "angle": 0,
+              "id": "eda48ac3-4dda-4b57-85ea-37ae5874ff43",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Create Order"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 830,
+                "y": 180
+              },
+              "angle": 0,
+              "id": "00ce8a8c-2cf7-4e56-a30a-06615d32b4a7",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Checkout API"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 310,
+                "y": 170
+              },
+              "angle": 0,
+              "id": "7d4bd77f-de09-4072-80ee-7e40f601e67e",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Service"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0b485ca4-66bf-4dca-8393-02356460c9dc"
+              },
+              "target": {
+                "x": 300,
+                "y": 220
+              },
+              "vertices": [],
+              "id": "d3029e4c-237b-4cbe-802d-5ec290627c5b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Web Request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "isEncrypted": true,
+              "protocol": "HTTP/S",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
@@ -67,7 +209,7 @@
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 1690
         }
       }
     ]
